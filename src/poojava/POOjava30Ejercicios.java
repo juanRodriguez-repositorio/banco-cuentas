@@ -18,22 +18,22 @@ public class POOjava30Ejercicios {
     public static void ejercicio_3(){
         System.out.println(4.5);
     };
-    public static void ejercicio_4(){
-        System.out.println(4.5);
-    };
     //operaciones basicas y bucles.
     
-    public static void ejercicio_5(){
-        
+    public static void ejercicio_4(){
         System.out.println(1234+532);
     };
-    public static void ejercicio_6(){
+    public static void ejercicio_5(){
         
         System.out.println(1234-532);
     };
+    public static void ejercicio_6(){
+        
+        System.out.println(1234*532);
+    };
     public static void ejercicio_7(){
         
-        System.out.println(1234/532);
+        System.out.println((float) 1234/532);
     };
     public static void ejercicio_8(){
         
@@ -211,7 +211,7 @@ public class POOjava30Ejercicios {
             if(num1==num2){
                 System.out.println("El maximo comun divisor es: "+num1);
             }else if(num1>num2){
-                int residuo=0;
+                int residuo=num2;
                 
                 while(num1%num2!=0){
                     residuo=num1%num2;
@@ -220,7 +220,7 @@ public class POOjava30Ejercicios {
                 }
                 System.out.println("El maximo comun divisor de los dos numeros es: "+residuo);
             }else{
-                int residuo=0;
+                int residuo=num1;
                 
                 while(num2%num1!=0){
                     residuo=num2%num1;
